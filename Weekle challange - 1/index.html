@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <title>Weekly challenge 1</title>
+    
+    <meta name="description" content="challange">
+    <meta name="author" content="RS">
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="prefixfree.js">
+    </script>
+</head>
+
+<body>
+    <header id="logo">
+        <img class="main-logo" src="img/Masteralb.png" alt="masterlab logo">
+    </header>
+    <main>
+    <div class="column-1">
+        <div class="register form">
+            <h2>Register Form</h2>
+            <div class="register-form">
+            <form>
+                <div class="username-input">
+                    <label for="UserName" class="visually-hidden">Username </label>
+                    <input type="text" id="UserName" name="username" placeholder="Username">
+                    <span class="fa fa-user fa-3x icon"></span>
+                </div>
+                
+                <div class="password-input">
+                    <label for="RegisterPassword" class="visually-hidden">Password </label>
+                    <input type="password" id="RegisterPassword" name="RegisterPassword" placeholder="Password">
+                    <span class="fa fa-lock fa-3x icon"></span>
+                </div>
+                
+                <div class="confirm-password-input">
+                    <label for="RegisterConfirmPassword" class="visually-hidden">ConfirmedPassword </label>
+                    <input type="password" id="RegisterConfirmPassword" name="RegisterConfirmPassword" placeholder="Confirm Password">
+                    <span class="fa fa-lock fa-3x icon"></span>
+                </div>
+                
+                <div class="email-input">
+                    <label for="RegisterEmail" class="visually-hidden">>Email</label>
+                    <input type="email" id="RegisterEmail" name="RegisterEmail" placeholder="Email">
+                    <span class="fa fa-envelope fa-3x icon"></span>
+                </div>
+                
+                
+                <div class="location-input">
+                    <label for="Location" class="visually-hidden">>Location</label>
+                    <select name="location" id="Location">
+                        <option value="" disabled selected hidden>Your Location</option>
+                        <option value="Option1">Option1</option>
+                        <option value="Option 2">Option2</option>
+                        <option value="3">Option3</option>
+                    </select>
+                    <span class="fa fas fa-map-marker fa-3x icon"></span>
+                </div>
+                
+                <div class="checkbox-box">
+                    <input type="checkbox" id="RegisterCheckbox">
+                    <label for="RegisterCheckbox" id="TermsAcceptationCheckbox">I have read and accept the terms of use.</label>
+                </div>
+                
+                <div class="submit-button">
+                    <input type="submit" value="Sign up">
+                </div>
+            </form>
+            </div>
+        </div>
+
+        <div class="e-mail form left">
+            <h2>Send Email</h2>
+            <div class="email-form">
+                <form>
+                    <div class="username-input">
+                        <label for="SendEmailName" class="visually-hidden">Your name </label>
+                        <input type="text" id="SendEmailName" name="SendEmailName" placeholder="Your name">
+                        <span class="fa fa-user fa-3x icon"></span>
+                    </div>
+
+                    <div class="email-input">
+                        <label for="SendEmail-Email" class="visually-hidden">>Email</label>
+                        <input type="email" id="SendEmail-Email" name="SendEmail-Email" placeholder="Your Email">
+                        <span class="fa fa-envelope fa-3x icon"></span>
+                    </div>
+
+                    <textarea name="userMessage" id="user_message" placeholder="Type your message ..."></textarea>
+
+                    <div class="checkbox-box">
+                        <input type="checkbox" id="Sign-in-Checkbox">
+                        <label for="Sign-in-Checkbox">Send a copy to my Email</label>
+                    </div>
+
+                    <div class="submit-button">
+                        <input type="submit" value="Send Email">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+     
+    <div class="column-2">
+        <div class="sign-in form right">
+            <h2>Sign in Form</h2>
+            <div class="sign-in-form"> 
+                <form>
+                    <div class="username-input">
+                        <label for="Sign-in-username" class="visually-hidden">Username </label>
+                        <input type="text" id="Sign-in-username" name="username" placeholder="Username">
+                        <span class="fa fa-user fa-3x icon"></span>
+                    </div>
+
+                    <div class="password-input">
+                        <label for="Sign-in-Password" class="visually-hidden">Password </label>
+                        <input type="password" id="Sign-in-Password" name="Sign-in-Password" placeholder="Password">
+                        <span class="fa fa-lock fa-3x icon"></span>
+                    </div>
+                    <div class="wrapper">
+                        <div class="checkbox-box">
+                            <input type="checkbox" id="Sign-in-Checkbox">
+                            <label for="Sign-in-Checkbox">Remember Me</label>
+                        </div>
+
+                        <div class="submit-button">
+                            <input type="submit" value="Sign in">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="recover form right">
+            <h2>Recover Form</h2>
+            <div class="recover-form">
+                <form>
+                    <div class="email-input">
+                        <label for="SendEmail-Email" class="visually-hidden">Email</label>
+                        <input type="email" id="SendEmail-Email" name="SendEmail-Email" placeholder="Enter your Email">
+                        <span class="fa fa-envelope fa-3x icon"></span>
+                    </div>
+                    
+                    <div class="phone-input">
+                        <label for="PhoneNumber" class="visually-hidden"></label>
+                        <input type="number" name="PhoneNumber" id="PhoneNumber" placeholder="Enter your Phone number">
+                        <span class="fas fa-phone fa-3x icon"></span>
+                    </div>
+                    <div class="wrapper">
+                        <div class="submit-button">
+                            <input type="submit" value="Send">
+                        </div>
+                        <div class="submit-button">
+                            <input type="submit" value="Done">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="subscribe form">
+            <h2>Subscribe form</h2>
+            <div class="subscribe-form">
+                <form>
+                    <div class="email-input">
+                        <label for="SendEmail-Email" class="visually-hidden">>Email</label>
+                        <input type="email" id="SendEmail-Email" name="SendEmail-Email" placeholder="Enter your Email">
+                        <span class="fa fa-envelope fa-3x icon"></span>
+                    </div>
+                    <div class="wrapper">
+                        <div class="submit-button">
+                            <input type="submit" value="Subscribe">
+                        </div>
+                        <div class="refuse-button">
+                            <input type="submit" value="No, Thanks">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="logo">
+            <img src="img/smallLogo.png" class="SmallLogo">
+        </div>
+    </div>
+        
+    </main>
+</body>
+</html>
