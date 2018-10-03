@@ -24,8 +24,9 @@ body{
 
 /* Hide visual label for inputs */
 .visually-hidden { 
-    left: -999em; 
-    position: absolute;
+    height: 1px; width: 1px; 
+    position: absolute !important;
+    overflow: hidden;
 }
 
 main{
